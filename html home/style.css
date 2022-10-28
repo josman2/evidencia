@@ -1,0 +1,17 @@
+header{
+    background-color:#74C69D;
+}
+
+.menu-logo {
+    margin: 20px;
+    height: 20px;
+
+}
+.flex-container ul, li{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding:  10px;
+   
+}
