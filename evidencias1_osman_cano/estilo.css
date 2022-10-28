@@ -1,0 +1,47 @@
+body{
+    background: url(./imagenes/fondo.jpg);
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+thead{
+    background-color: beige;
+}
+tr, th, td{
+    border: 3px solid black;
+    padding: 5px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td{
+    background-color: rgb(148, 141, 141);
+}
+ol, ul, li{
+    text-align: left;
+}
+a{
+    background-color: aliceblue;
+}
+footer{
+    font-style: initial;
+    font-size: 16px;
+    background-color: black;
+
+}
+h3{
+    text-align: left;
+}
