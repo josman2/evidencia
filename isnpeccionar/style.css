@@ -1,0 +1,43 @@
+html{
+    font-size: 30px;
+}
+
+.fondo{
+    max-width: 62.5rem;
+    width: 90%;
+    margin: 1,875em auto;
+}
+
+p{
+    font-size: 1em;
+}
+
+.fondo .contenido{
+    background: url(images/fondo.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding-top: 64%;
+    position: relative;
+}
+
+.fondo .contenido .section{
+    width: 29%;
+    height: 15%;
+
+    position: absolute;
+}
+
+.fondo .contenido .section.primera{top: 6%; left: 6%;}
+.fondo .contenido .section.segunda{top: 17%; left: 36%;}
+.fondo .contenido .section.tercera{top: 10%; left: 69%;}
+.fondo .contenido .section.cuarta{top: 35%; left: 9%;}
+.fondo .contenido .section.quinta{top: 41%; left: 57%;}
+.fondo .contenido .section.sexta{top: 63%; left: 9%;}
+.fondo .contenido .section.septima{top: 66%; left: 64%;}
+.fondo .contenido .section.octava {top: 40%; left: 43%; width: 27%; border: none;}
+.fondo .contenido .section.octava img{width: 30%;}
+
+.fondo .contenido .section:hover{
+    background-color: #cac7c780;
+}
+
